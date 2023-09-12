@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>website</title>
+
+
+</head>
+
+<body>
+    <h1>Media Bias Detector</h1>
+
+    <form action = "/" method="POST">
+        Input Text:
+        <p><textarea id="freeform" name= "text" rows="4" cols="50"></textarea>
+        </p>
+
+        <p> Link: <input name= "link"></p>
+        <input type="submit">
+
+        <p> Result: {{processed_text}}</p>
+    </form>
+
+<p>
+    [0] = Left Bias
+    <br>
+    [1] = Center
+    <br>
+    [2] = Right Bias
+</p>
+</body>
+
+</html>
